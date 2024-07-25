@@ -20,7 +20,9 @@ bus = Handler(Channel.CanB)
 
 # Add variables to monitor
 bus.AddCheckList(0x0016, 0, 8, "Battery")
+
 bus.AddCheckList(0x0000, 3, 1, "Terminal50")
+
 bus.AddCheckList(0x0000, 5, 1, "Terminal15")
 
 # Start the CAN bus communication
