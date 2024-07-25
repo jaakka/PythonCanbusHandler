@@ -7,7 +7,8 @@ With this canbus library, you can handle CAN bus data more easily.
 ## Installation
 
 ```bash
-pip install CanBusHandler
+pip install git+https://github.com/jaakka/PythonCanbusHandler.git
+
 ```
 
 Usage
