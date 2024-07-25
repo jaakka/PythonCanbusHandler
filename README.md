@@ -14,7 +14,7 @@ pip install git+https://github.com/jaakka/PythonCanbusHandler.git
 Usage
 Here's a simple example of how to use the CanBusHandler library:
 
-from CanBusHandler import Handler, Channel
+from CanbusHandler import Handler, Channel
 
 # Initialize CAN bus on channel B
 bus = Handler(Channel.CanB)

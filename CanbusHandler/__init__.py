@@ -1,1 +1,1 @@
-from .canbus_handler import MBcanbus, Channel
+from .canbus_handler import Handler, Channel
