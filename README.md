@@ -2,7 +2,8 @@
 (for python)
 With this canbus library, you can handle CAN bus data more easily.
 
-![image](https://github.com/user-attachments/assets/7e15bb34-002b-4576-933a-595057a284bc)
+<img src="https://github.com/user-attachments/assets/7e15bb34-002b-4576-933a-595057a284bc" width=30% >
+
 i used 2-Channel Isolated CAN Expansion HAT for Raspberry Pi, Dual Chips Solution
 in this project https://www.waveshare.com/2-ch-can-hat.htm
 my rasberry pi is 4 model b.
