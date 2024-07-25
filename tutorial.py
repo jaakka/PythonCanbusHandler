@@ -34,7 +34,11 @@ msg = [0x3,0x4,0x5,0x3]
 times = -1 #send every second and never stop
 busB.SendMessage(devicePid, msg, times) 
 
-devicePid = 0x1
+#you can cancel message if you want remove example neverstop message
+busB.CancelMessage(0x1)
+
+devicePid = 0x2
 msg = [0x3,0x4,0x5,0x3]
 times = 13 #send every second 13 times
 busA.SendMessage(devicePid, msg, times)
+
