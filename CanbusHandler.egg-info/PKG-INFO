@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: CanbusHandler
-Version: 0.1
+Version: 0.2
 Summary: With this canbus library, you can handle canbus data more easier
 Home-page: https://github.com/jaakka/PythonCanbusHandler
 Author: Jaakko Talvitie
