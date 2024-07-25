@@ -11,7 +11,11 @@ my rasberry pi is 4 model b.
 
 
 ## Installation
+```bash
+pip install CanbusHandler
 
+```
+#or
 ```bash
 pip install git+https://github.com/jaakka/PythonCanbusHandler.git
 
