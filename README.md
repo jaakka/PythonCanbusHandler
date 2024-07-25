@@ -37,3 +37,4 @@ Features
 Send and receive CAN messages
 Monitor specific variables on the CAN bus
 
+CHECK tutorial.py
