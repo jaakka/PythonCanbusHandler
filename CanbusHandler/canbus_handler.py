@@ -26,6 +26,12 @@ class Handler:
         self.listOfMessagesToSend = [] 
         self.listOfMessagesToRead = [] 
 
+    def GetValue(self, alias:str):
+        for message in self.listOfMessagesToRead:
+            if(message.alias == alias):
+                return message.value
+        return 0
+
     def AddCheckList(self, pid:int, offset:int, len:int, alias:str):
         self.listOfMessagesToRead.append( ReadMessage(pid, offset, len, alias) )
 
