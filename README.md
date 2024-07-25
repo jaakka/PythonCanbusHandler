@@ -39,8 +39,9 @@ Also remember to check that you don't have the end resistors in use, you probabl
 
 Usage
 Here's a simple example of how to use the CanBusHandler library:
-
+```
 from CanbusHandler import Handler, Channel
+```
 
 # Initialize CAN bus on channel B
 ```
