@@ -10,6 +10,11 @@ With this canbus library, you can handle CAN bus data more easily.
 pip install git+https://github.com/jaakka/PythonCanbusHandler.git
 
 ```
+#Remember start canbus
+```
+sudo ip link set can0 up type can bitrate 500000
+sudo ifconfig can0 up
+```
 
 Usage
 Here's a simple example of how to use the CanBusHandler library:
