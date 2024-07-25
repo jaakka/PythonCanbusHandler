@@ -38,6 +38,11 @@ class Handler:
     def SendMessage(self, pid:int, message:list, times:int):
         self.listOfMessagesToSend.append( WriteMessage(pid,message,times) )
 
+    def CancelMessage(self, pid:int):
+        for i in range(len(self.listOfMessagesToSend)):
+            if(self.listOfMessagesToSend[i].pid == pid):
+                self.listOfMessagesToSend.pop(i)
+
     def MessageSender(self):
         while True:
             i=0
